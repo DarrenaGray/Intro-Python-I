@@ -37,6 +37,7 @@ print(y)
 x = input("Enter comma-separated numbers: ").split(',')
 
 # What do you need between the square brackets to make it work?
+# Since input() returns all values to strings by default, must convert i into an integer for determining if number is even
 y = [i for i in x if int(i) % 2 == 0]
 
 print(y)
