@@ -15,7 +15,7 @@ print(f1(1, 2))
 # sum. Google for "python arbitrary arguments" and look for "*args"
 
 
-def f2(*args):
+def f2(*args):  # *args allows for any number arguments to be taken in
     num = 0
     for x in args:
         num += x
